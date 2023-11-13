@@ -1,0 +1,386 @@
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div {
+  z-index: 1;
+}
+
+div.wrapper > div.header > nav.all-menu > div.menu > ul > li > div.cover {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #212b2ea2;
+  left: -1192px;
+  top: 30px;
+  display: none;
+}
+div.wrapper > div.header > nav.all-menu > div.menu > ul > li:hover > div.cover {
+  display: block;
+}
+div.wrapper > div.header > nav.all-menu > div.menu > ul > li > div.cover:hover {
+  display: none;
+}
+
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div {
+  position: absolute;
+  top: 0;
+  right: 195px;
+  width: 925px;
+  height: 400px;
+  padding: 20px 20px 0 20px;
+  direction: ltr;
+  overflow-y: scroll;
+  background-color: white;
+  border-radius: 0 0 0 10px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li:nth-of-type(1)
+  > div {
+  z-index: 2;
+}
+
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li:hover
+  > div {
+  z-index: 3;
+}
+
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div {
+  direction: rtl;
+  margin-bottom: 20px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div
+  > a
+  > i {
+  font-size: 10px;
+  padding-right: 6px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div
+  > a {
+  font-size: 13px;
+  color: #008eb2;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div.sub-heading,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > div.sub-heading {
+  padding: 4px 0;
+  margin-bottom: 8px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div.sub-heading
+  > a,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > div.sub-heading
+  > a {
+  border-right: 2px solid #ef3c52;
+  padding: 0 10px;
+  font-weight: 600;
+  font-size: 13.7px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div.sub-heading
+  > a
+  > i,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > div.sub-heading
+  > a
+  > i {
+  font-size: 8px;
+  transform: translatey(-2px);
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div.sub-heading
+  > a:hover,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > div.sub-heading
+  > a:hover {
+  color: #ef3c52;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > ul
+  > li,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > ul
+  > li {
+  padding: 9px 0;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > ul
+  > li
+  > a,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > ul
+  > li
+  > a {
+  color: #81858b;
+  font-size: 14px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > ul
+  > li:hover
+  > a,
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div.menu
+  > ul
+  > li
+  > div.mega-menu
+  > div.menu
+  > ul
+  > li
+  > div
+  > div.product
+  > div
+  > div
+  > ul
+  > li:hover
+  > a {
+  color: #ef3c52;
+}

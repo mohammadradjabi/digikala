@@ -1,0 +1,39 @@
+div.wrapper > div.story {
+  width: 100%;
+  text-align: center;
+  height: 143.75px;
+  background-color: white;
+}
+div.wrapper > div.story > div > img.bigsize {
+  display: none;
+  width: 750px;
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 750px / 2);
+  z-index: 200;
+}
+div.wrapper > div.story > div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 38px;
+  margin-top: 22px;
+}
+div.wrapper > div.story > div > img.story-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid rgb(226, 89, 39);
+}
+div.wrapper > div.story > div:hover > img.bigsize {
+  display: block;
+}
+
+div.wrapper > div.story > div > p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #888;
+  padding-top: 5px;
+}

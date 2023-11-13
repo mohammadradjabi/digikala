@@ -1,0 +1,76 @@
+div.wrapper > div.amazing-supermarket {
+  width: 98%;
+  height: 110px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  padding: 0 40px;
+  background: url(/img/freshPattern.svg) left center no-repeat #ebeeeb;
+  cursor: pointer;
+}
+div.wrapper > div.amazing-supermarket > div {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: calc(50% - 40px);
+}
+div.wrapper > div.amazing-supermarket > div > div {
+  display: inline-block;
+  padding: 8px;
+  margin: 0 0 0 0px;
+  position: relative;
+}
+div.wrapper > div.amazing-supermarket > div > div > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+
+div.wrapper > div.amazing-supermarket > div:nth-of-type(1) {
+  width: 8%;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(2) {
+  width: 23%;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(3) {
+  width: 18%;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(4) > div {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 5px;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(3) > p {
+  background-color: #39ae00;
+  width: fit-content;
+  padding: 4px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(5) > p {
+  background-color: white;
+  padding: 14px 24px;
+  border-radius: 24px;
+  font-size: 13px;
+  color: #39ae00;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(5) > p > i {
+  padding-right: 5px;
+}
+div.wrapper > div.amazing-supermarket > div > div > span {
+  position: absolute;
+  left: 40px;
+  bottom: 0px;
+  font-size: 12px;
+  background-color: #ef3c52;
+  padding: 3px 5px;
+  border-radius: 16px;
+  color: whitesmoke;
+}
+div.wrapper > div.amazing-supermarket > div:nth-of-type(1) > img {
+  width: 66px;
+  height: 62px;
+}

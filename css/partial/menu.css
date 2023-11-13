@@ -1,0 +1,110 @@
+/* menu */
+div.wrapper > div.header > nav.all-menu {
+  padding: 12px 16px 0 16px;
+}
+div.wrapper > div.header > nav.all-menu > div {
+  display: inline-block;
+  vertical-align: top;
+}
+div.wrapper > div.header > nav.all-menu > div > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 12px;
+  height: 30px;
+  transition: linear 200ms;
+}
+div.wrapper > div.header > nav.all-menu > div > ul > div {
+  background-color: #b5b8bd;
+  width: 1px;
+  height: 18px;
+  display: inline-block;
+}
+div.wrapper > div.header > nav.all-menu > div:nth-of-type(1) {
+  width: 85.5%;
+}
+div.wrapper > div.header > nav.all-menu > div:nth-of-type(2) {
+  width: 14%;
+  text-align: left;
+  padding-bottom: 2px;
+}
+div.wrapper > div.header > nav.all-menu > div > ul > li > a > p {
+  display: inline-block;
+  color: #626d64;
+  font-size: 12px;
+}
+div.wrapper > div.header > nav.all-menu > div > a > p {
+  display: inline-block;
+  color: #62666d;
+  position: relative;
+  font-size: 13px;
+}
+div.wrapper > div.header > nav.all-menu > div > a > p::before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 170px;
+  background-color: rgba(32, 46, 59, 0.904);
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 5px;
+  transition: opacity 100ms ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: -6px;
+  top: 33px;
+}
+div.wrapper > div.header > nav.all-menu > div > a > p:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+div.wrapper > div.header > nav.all-menu > div > a > i {
+  padding-left: 5px;
+}
+div.wrapper > div.header > nav.all-menu > div > ul > li > a > i {
+  padding-left: 5px;
+}
+div.wrapper > div.header > nav.all-menu > div > ul > li > a > div > div {
+  width: 12px;
+  height: 2px;
+  background-color: #3f4064;
+  margin-top: 2px;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div
+  > ul
+  > li:nth-of-type(1)
+  > a
+  > div {
+  display: inline-block;
+  padding: 0 3px;
+}
+div.wrapper > div.header > nav.all-menu > div > ul > li:nth-of-type(1) > a > p {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1d1818;
+}
+
+div.wrapper > div.header > nav.all-menu > div > ul > li:hover {
+  border-bottom: 2px solid #ef3c52;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div
+  > ul
+  > li:nth-of-type(1)
+  > div.mega-menu {
+  display: none;
+}
+div.wrapper
+  > div.header
+  > nav.all-menu
+  > div
+  > ul
+  > li:nth-of-type(1):hover
+  > div.mega-menu {
+  display: block;
+}

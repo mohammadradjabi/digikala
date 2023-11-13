@@ -1,0 +1,82 @@
+@font-face {
+  font-family: iransans-bold;
+  src: url(//font/IRANSansWeb_Bold.ttf);
+  src: url(//font/IRANSansWeb_Bold.woff);
+  src: url(//font/IRANSansWeb_Bold.woff2);
+  src: url(//font/IRANSansWeb_Bold.eot);
+}
+@font-face {
+  font-family: iransans-web;
+  src: url(//font/IRANSansWeb.ttf);
+  src: url(//font/IRANSansWeb.woff);
+  src: url(//font/IRANSansWeb.woff2);
+  src: url(//font/IRANSansWeb.eot);
+}
+@font-face {
+  font-family: iransans-black;
+  src: url(//font/IRANSansWeb_Black.ttf);
+  src: url(//font/IRANSansWeb_Black.woff);
+  src: url(//font/IRANSansWeb_Black.woff2);
+  src: url(//font/IRANSansWeb_Black.eot);
+}
+@font-face {
+  font-family: iransans-web;
+  src: url(//font/IRANSansWeb.ttf);
+  src: url(//font/IRANSansWeb.woff);
+  src: url(//font/IRANSansWeb.woff2);
+  src: url(//font/IRANSansWeb.eot);
+}
+@font-face {
+  font-family: iransans-medium;
+  src: url(//font/IRANSansWeb_Medium.ttf);
+  src: url(//font/IRANSansWeb_Medium.woff);
+  src: url(//font/IRANSansWeb_Medium.woff2);
+  src: url(//font/IRANSansWeb_Medium.eot);
+}
+@font-face {
+  font-family: irani;
+  src: url(//font/static/NotoNastaliqUrdu-Bold.ttf);
+}
+@font-face {
+  font-family: arabi;
+  src: url(//font/static/MarkaziText-Bold.ttf);
+}
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+}
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
+}
+p,
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgb(134, 130, 130);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(196, 190, 190);
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: black;
+}
+div.wrapper {
+  width: 100%;
+}
